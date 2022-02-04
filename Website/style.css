@@ -4,9 +4,11 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    background-color: black;
 }
 html {
     font-size: 16px;
+    color:#fff;
 
     margin-top: 3em;
 
@@ -14,6 +16,27 @@ html {
 
 h1, h2, h3 {
     color: #666;
+
+}
+
+body banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height:  300px;
+    width: 100%;
+    opacity: .2;
+    
+    
+    
+    
+    
+    background-image:  url(./1050x700cryptoart.png);
+    text-transform: 
+ 
+  
+
+    
 
 }
 
@@ -26,6 +49,7 @@ footer {
 
 }
 
+
 header {
     padding: 2em 0em;
 
@@ -33,10 +57,21 @@ header {
 header h1{
     font-size: 3em;
 }
+header img {
+    align-items: center;
+    max-width: 200px;
+    margin: 0% auto;
+
+
+
+}
 header span{
     font-size: 1.5;
     color: #999;
 
+}
+body header{
+    padding-top: 16em;
 }
 
 nav {
@@ -49,7 +84,7 @@ nav {
     justify-content: center;
     
 
-    background-color: darkslategrey;
+    background-color: rgb(0, 0, 0);
 
 }
 nav a{
@@ -58,7 +93,7 @@ nav a{
     color:white;
 }
 nav a:hover {
-    background: #666;
+    background: rgb(0, 0, 0);
 
 }
 section {
@@ -85,16 +120,20 @@ section ul{
 }
 
 #products article {
-    background: rgb(114, 114, 114);
+    background: rgb(114, 114, 114, 20%);
     padding: 1em;
 
 }
 #products article img {
     background: rgb(114, 114, 114);
-    padding: 1em;
+    padding: 0em;
+    align-items: center;
     width: 100%;
     border: 1px solid #222;
 
+}
+#products article p {
+        align-items: center;
 }
 
 footer {
