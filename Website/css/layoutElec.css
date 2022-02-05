@@ -13,10 +13,14 @@ footer {
     display: grid;
     grid-template-rows: auto;
     margin: 0 auto;
-    max-width: 800px;
+    width: auto;
     justify-content: center;
     padding: 0;
     font-size: 28px;
+    width: 100%;
+    margin-left:auto;
+    margin-right:auto;
+    width:960px;
     
 
 
@@ -26,19 +30,32 @@ banner {
     display: flex;
     justify-content: center;
     padding-top: 0%;
+    height: 19em;
 
 }
 h1,h2 {
     display: flex;
     justify-content: center;
+    
 }
-img {
-    padding: 2rem;
+body img {
+    display: flex;
+    justify-content: center;
+    padding: 0rem auto;
 }
+main section img{
+background: rgb(114, 114, 114);
+    padding: 0em;
+    align-items: center;
+    width: 100%;
+    border: 1px solid #222;
+}
+
 main {
 display: flex;
 flex-direction: column;
 flex-wrap: wrap;
+max-width: 50%;
 
 }
 html {
