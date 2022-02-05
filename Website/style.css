@@ -14,8 +14,12 @@ html {
 
 }
 
-h1, h2, h3 {
+h3
+ {
+    display: flex;
+    justify-content: center;
     color: #666;
+
 
 }
 
@@ -27,31 +31,27 @@ body banner {
     width: 100%;
     opacity: .2;
     
-    
-    
-    
-    
     background-image:  url(./1050x700cryptoart.png);
-    text-transform: 
- 
-  
-
-    
-
 }
 
 header,
 main,
 footer {
+    display: grid;
+    grid-template-rows: auto;
     margin: 0 auto;
     max-width: 800px;
+    justify-content: center;
+    
     
 
 }
 
 
-header {
-    padding: 2em 0em;
+body span{
+    display: flex;
+    justify-content: center;
+
 
 }
 header h1{
@@ -145,5 +145,5 @@ footer {
 
 }
 #downloadbutton{
-    opacity: .2;
+    opacity: .45;
 }
