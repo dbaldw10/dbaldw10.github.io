@@ -22,6 +22,10 @@ h3
 
 
 }
+body span{
+    font-size: xx-large;
+    font-style:italic;
+}
 
 body banner {
     position: absolute;
@@ -79,6 +83,7 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
+    height: 2em;
     display: flex;
     flex-flow: row;
     justify-content: center;
@@ -89,12 +94,16 @@ nav {
 }
 nav a{
     padding: .5em 2em;
+    height: em;
     text-decoration:none ;
     color:white;
 }
 nav a:hover {
-    background: rgb(0, 0, 0);
+    background: rgb(104, 8, 8);
 
+}
+nav ul{
+    padding-top: .2em;;
 }
 section {
     margin: 1em 0;
