@@ -26,11 +26,34 @@ footer {
 
 
 }
+h1{
+    font-size: 90px;
+    pS
+
+
+}
+h2{
+    font-size: 50px;    
+}
+#video {
+   display: grid;
+    grid-template-rows: auto;
+    margin: 0 auto;
+    width: auto;
+    justify-content: center;
+    padding: 1em;
+    font-size: 28px;
+    width: 100%;
+    margin-left:auto;
+    margin-right:auto;
+    width:960px;
+}
 banner {
     display: flex;
     justify-content: center;
     padding-top: 0%;
     height: 19em;
+    opacity: .6;
 
 }
 h1,h2 {
@@ -41,14 +64,18 @@ h1,h2 {
 body img {
     display: flex;
     justify-content: center;
-    padding: 0rem auto;
+    padding: 3rem auto;
 }
 main section img{
-background: rgb(114, 114, 114);
-    padding: 0em;
+background: rgb(10, 10, 10);
+    padding: 0em 1em;
     align-items: center;
     width: 100%;
     border: 1px solid #222;
+}
+main p {
+    padding: auto;
+    max-width: 100%;
 }
 
 main {
