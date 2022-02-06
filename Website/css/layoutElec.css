@@ -83,7 +83,7 @@ banner {
     display: flex;
     justify-content: center;
     padding-top: 0%;
-    height: 19em;
+    height: 200px;
     width: 100%;
     opacity: .6;
 
@@ -148,11 +148,14 @@ footer{
     font-size: 40px;   
     width: 100%; 
     }
+    banner {
+        width: 100%;
+    }
     .youtube-video-container{
         padding-bottom: 100px;
     }
 }
-@media screen and (min-width: 400) and (max-width:450) {
+@media screen and (min-width: 380) and (max-width:450) {
     .wrapper{
         width: 600px;
         margin: 0 auto;
@@ -168,10 +171,13 @@ footer{
     .youtube-video-container{
         width: 100%;
     }
+    banner {
+        width: 100%;
+    }
     
     header,
-main,
-footer {
+    main,
+    footer {
     display: grid;
     grid-template-rows: auto;
     margin: 0 auto;
@@ -182,14 +188,9 @@ footer {
     width: 100%;
     margin-left:auto;
     margin-right:auto;
-    
-}
-banner {
-   display: grid;
-    grid-template-rows: auto;
-    margin: 0 auto;
-    width: auto;
-    justify-content: center;
 
-}
+    }
+   elec1 {
+    display: none;
+    }
 }
