@@ -152,3 +152,20 @@ footer{
         padding-bottom: 100px;
     }
 }
+@media screen and (min-width: 400) and (max-width:450) {
+    .wrapper{
+        width: 600px;
+        margin: 0 auto;
+    }
+    .wrapper h1 {
+    font-size: 80px;
+    margin: 0;
+    }
+    h2{
+    font-size: 40px;   
+    width: 100%; 
+    }
+    .youtube-video-container{
+        padding-bottom: 100px;
+    }
+}
