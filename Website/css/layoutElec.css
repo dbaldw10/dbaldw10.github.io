@@ -168,7 +168,7 @@ footer{
     .youtube-video-container{
         width: 100%;
     }
-    }
+    
     header,
 main,
 footer {
@@ -183,8 +183,13 @@ footer {
     margin-left:auto;
     margin-right:auto;
     
-    
+}
+banner {
+   display: grid;
+    grid-template-rows: auto;
+    margin: 0 auto;
+    width: auto;
+    justify-content: center;
 
-
-
+}
 }
