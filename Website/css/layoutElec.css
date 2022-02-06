@@ -141,9 +141,9 @@ footer{
         margin: 0 auto;
     }
     .wrapper h1 {
-    font-size: 30px;
+    font-size: 40px;
     margin: 0;
-    padding-bottom: 0;
+    padding-bottom: 10;
     }
     h2{
     font-size: 40px;   
@@ -153,6 +153,9 @@ footer{
 
         height: 180px;
         width: 360px;
+    }
+    .youtube-video-container{
+        padding-bottom: 150px;
     }
     
 }
