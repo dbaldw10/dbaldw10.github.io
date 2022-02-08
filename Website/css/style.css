@@ -42,7 +42,7 @@ body banner {
     height: 300px;
     width: 100%;
     opacity: .3;
-    background-image:  url(/dbaldw10.github.io/Website/images/Blockchainbanner.png);
+    background-image:  url(/Website/images/Blockchainbanner.png);
 }
 
 header,
@@ -68,20 +68,20 @@ body span{
 }
 @font-face {
     font-family: 'supermercadoregular';
-    src: url(/dbaldw10.github.io/Website/fonts/SupermercadoOne-Regular.ttf);
+    src: url(/Website/fonts/SupermercadoOne-Regular.ttf);
     font-style: normal;
     font-weight: 100;
 
 }
 @font-face {
     font-family: 'cinzelregular';
-    src: url(/dbaldw10.github.io/Website/fonts/Cinzel-Regular.ttf);
+    src: url(/Website/fonts/Cinzel-Regular.ttf);
     font-style: normal;
     font-weight: 100;
 }
 @font-face {
     font-family: 'handleeregular';
-    src: url(/dbaldw10.github.io/Website/fonts/Handlee-Regular.ttf);
+    src: url(/Website/fonts/Handlee-Regular.ttf);
 
 }
 header h1{
@@ -136,7 +136,7 @@ nav a{
 
     text-decoration:none ;
     color:rgb(156, 156, 156);
-    font-size: 20px;
+    font-size: 18px;
     background-color: rgb(5, 5, 5);
 }
 nav a:hover {
