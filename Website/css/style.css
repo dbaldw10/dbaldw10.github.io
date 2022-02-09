@@ -91,7 +91,7 @@ header h1{
     font-family: 'supermercadoregular';
     font-weight: normal;
     font-style: normal;
-    font-size: 4em;
+    font-size: 3.5em;
     align-items: center;
 }
 header img {
@@ -166,17 +166,11 @@ section > p{
     color: rgb(221, 217, 217);
 
 }
-section ul{
-    padding-left: em;
-
-
-
-}
 #products {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     grid-template-rows: auto;
-    grid-column-gap: 1em;
+    grid-column-gap: .5em;
     
 
 
