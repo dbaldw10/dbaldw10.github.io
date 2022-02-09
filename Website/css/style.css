@@ -24,8 +24,8 @@ h3
 }
 h2 {
     display: flex;
-    justify-content: center;
-    font-size: 32px;
+    padding-left: .6em;
+    font-size: 40px;
     color: rgb(189, 178, 178);
 }
 body span{
@@ -86,11 +86,12 @@ body span{
 }
 header h1{
     padding-left: .1em;
+    padding-bottom: 1.5em;
     color: rgb(255, 255, 255);
     font-family: 'supermercadoregular';
     font-weight: normal;
     font-style: normal;
-    font-size: 7em;
+    font-size: 4em;
     align-items: center;
 }
 header img {
@@ -101,7 +102,7 @@ header img {
 }
 h2{
     font-family: handleeregular ;
-    font-size: 60px;
+    
 }
 header span{
     display: flex;
@@ -148,14 +149,19 @@ nav ul{
     border: 3px rgb(139, 5, 5);
 }
 section {
-    padding: 1em 1em 1em 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 1em 1em 1em 1em;
+    max-width: 80%;
 }
 section > p{
     font-family: cinzelregular;
     font-style: normal;
     margin: 1em 0;
     padding: 1em 1em 1em 1em;
-    font-size: 26px;
+    font-size: 22px;
     line-height: 180%;
     color: rgb(221, 217, 217);
 
@@ -203,4 +209,9 @@ footer {
 }
 #downloadbutton{
     opacity: .45;
+}
+#ContactMe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
