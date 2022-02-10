@@ -7,24 +7,21 @@
     <link rel="stylesheet" type="text/css" href="Website/css/style.css">
     <link rel="layout" type="text/css" href="Website/css/layout.css">
     <link rel="stylesheet" href="/dbaldw10.github.io/Website/images/Download.jpg">
-<center>
+
         <title>DBaldwin Portfolio</title>
 </head>
+<center>
 <body>
-    <banner>
-        
-    </banner>
     <header>
     <h1>Dallas Baldwin's Portfolio</h1>
-    <span></span>
-    
 </header>
+<div id="particles-js"></div>
+</div>
 <main>
-
     <section id="AboutDallas">
 
          <h2> A little about myself</h2>
-    
+    </center>
          <p>I started fixing computers and software for teachers and classmates as a kid. When I grew up not a whole lot changed.
              Except, I began fixing bigger computers and eventually MRI machines. I've built databases, organized inventory for companies, and maintained websites that i've built
              for them. After being a Broker for Morris Loan and eventually leaving to take a direct interest in computer programming, I am posting my achievements in hopes to join
@@ -33,15 +30,15 @@
              blockchain development. It seems that the world is trying to find the perfect balance of a perfectly written code to maintain the worlds financial structure, and
              a completely decentralized system, and its facisnating to say the least. Like if the perfect code was written, no one would have to touch it, and it could go on
              forever, and in effect be perpetually benefitting mankind.
-            
          </p>
         <p>Get to know me, by downloading my resume below...</p>
         <a id="downloadbutton" href="./Website/images/Resume2.pdf"download>
-            <center>
+            
             <img src="Website/images/Download.png" alt= "DownloadResume">
             
         </a>
     </section>
+</center>
 
     <section id="Repositories"> 
 
@@ -51,10 +48,11 @@
              and am proud to have introduced new concepts of level making, that i hadnt learned anywhere else, but came up with myself.
          </p>
 <center>
-        <div id="products">
+        <div id="Projects">
             <article>
                 <h3><a href="https://github.com/2022-Spring-Cohort/virtual-pet-dbaldw10.git">Virtual Pet Shelter</a></h3>
                 <img src="./Website/images/VP.png">
+                
                 <p>Virtual Pet Shelter was made in java using loops and methods. It simulates a pet shelter where the user can interact with
                     Robot Pets and Living Pets.
                 </p>
@@ -69,7 +67,7 @@
                 <h3><a href="SailingTheSeasDAO.html">SailingTheSeasDAO</a></h3>
                 <img src="./Website/images/pirate_moon_man-removebg-preview.png">
                 <p>The beginnings of building a DAO for a crypto group known as "SailingTheSeas".
-                </p>
+                </p></center>
                 
             </article>
     
@@ -97,27 +95,29 @@
 
 </main>
 
-<nav>
-    <ul>
-<a href="#AboutDallas">AboutDallas</a>
-
-<a href="#Repositories">Projects</a>
-
-<a href="#ContactMe">ContactMe</a>
-        
+    <nav id='menu'>
+        <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+        <ul>
     
-    </ul>
-
-
-</nav>
+            <li><a class='dropdown' href='#Projects'>Projects</a>
+            </li>
+            <li><a href='http://'>About/Certs</a></li>
+            <li><a class='dropdown-arrow' href='#Services'>Services</a>
+                <ul class='sub-menus'>
+                </ul>
+            </li>
+            <li><a href='#ContactMe'>ContactMe</a></li>
+        </ul>
+    </nav>
 
 <footer>
     <p></p> &copy;  2022 Dallas Baldwin
 
 </footer>
-</center>
+
 
 </body>
-
+<script type="text/javascript" src="Website/json/particles.min.js"></script>
+<script type="text/javascript" src="Website/json/app.js"></script>
 
 </html>
