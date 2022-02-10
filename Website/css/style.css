@@ -145,22 +145,22 @@ section > p{
 
 }
 
-#products article {
+#Projects article {
 
     background: rgb(114, 114, 114, .01);
     padding: em;
 
 }
-#products article img {
+#Projects > article > img {
     background: rgb(0, 0, 0);
     padding: 0em;
     align-items: center;
     width: 350px;
     border: 1px solid #222;
-    max-width: 100%;
+    max-width: 75%;
 
 }
-#products article p {
+#Projects article p {
         align-items: center;
         font-size: 18px;
         max-width: 100%;
@@ -238,8 +238,8 @@ footer {
     
 }
 #menu li a:hover {
-	color: #000000;
-	background: #720463;
+	color: #530707;
+	background: #f2f2f2;
 }
 #menu input {
 	display: none;
