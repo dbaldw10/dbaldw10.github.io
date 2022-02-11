@@ -7,13 +7,14 @@
     justify-content: center;
   
 }
+
 html {
     padding-top: 3.5em;
     margin: 0 auto;
     font-size: 20px;
     max-width: 80%;
     justify-content: center;
-  background: linear-gradient(rgb(255, 255, 255), rgb(208, 226, 245));
+  background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -44,9 +45,29 @@ body header {
     margin-bottom: 1em;
     max-width: 80%;
 }
-#particles-js{
-     border: 5px solid #555;
-     max-width: 50%;
+body,
+html {
+    height: 100%
+}
+
+#particles-js canvas {
+    display: block;
+    vertical-align: bottom;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: .3;
+    -webkit-transition: opacity .8s ease, -webkit-transform 1.4s ease;
+    transition: opacity .8s ease, transform 1.4s ease
+}
+
+#particles-js {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -10;
+    top: 0;
+    left: 0
 }
 #AboutDallas p {
     background-color: rgba(35, 201, 243, 0.2);
@@ -116,6 +137,10 @@ header img {
     align-items: center;
     max-width: 20%;
 
+}
+body header p {
+    font-family: 'Roboto';
+    font-size: 28px;
 }
 header span{
     display: flex;
