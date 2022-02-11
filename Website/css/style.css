@@ -2,29 +2,36 @@
     font-family: sans-serif;
     line-height: 1.618em;
     box-sizing: border-box;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
+    justify-content: center;
+
   
 }
 html {
     margin: 0 auto;
     font-size: 20px;
-    color:rgb(0, 0, 0);
     max-width: 80%;
     justify-content: center;
-    margin-top: 3em;
+  background: linear-gradient(rgb(255, 255, 255), rgb(151, 186, 206));
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
 }
 #particles-js{
-    max-width: 70%;
-    color: #000, .01;
+     border: 5px solid #555;
+     max-width: 70%;
 }
-
+#title {
+    padding-bottom: 100px;
+}
 h3
  {
     display: flex;
     justify-content: center;
     color: rgb(0, 0, 0);
-
  }
 
 
@@ -49,11 +56,7 @@ footer {
     justify-content: center;
     width: 100%;
     
-    
-
 }
-
-
 body span{
     display: flex;
     justify-content: center;
@@ -113,7 +116,7 @@ body header{
 
 
 section > p{
-    font-family: 'cinzelregular';
+    font-family: 'supermercadoregular';
     font-style: normal;
     margin: 0em 0;
     padding: 1em 1em 1em 1em;
@@ -123,9 +126,14 @@ section > p{
 
 }
 #Projects {
+    padding-top: 3rem;
     padding-bottom: 3rem;
     display: flex;
     flex-direction: row;
+}
+main h2{
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 #Projects article {
@@ -149,6 +157,9 @@ section > p{
         max-width: 100%;
     
 }
+#Projects h3 {
+    padding-bottom: 1em;
+}
 
 footer {
     margin-top: em;
@@ -157,9 +168,6 @@ footer {
     color: rgb(255, 255, 255);
 
 
-}
-#downloadbutton{
-    padding-bottom: 4em;
 }
 #ContactMe {
     display: flex;
@@ -246,18 +254,7 @@ footer {
     display: flex;
     flex-direction:column;
     justify-content: center;
-    padding-bottom: 3em;
-    padding-top: 3em;
-}
-
-@media screen and (max-width: 800px){
-	#menu {position:relative}
-	#menu ul {background:#111;position:absolute;top:100%;right:0;left:0;z-index:3;height:auto;display:none}
-	#menu li {display:block;float:none;width:auto;}
-	#menu input, #menu label {position:absolute;top:0;left:0;display:block}
-	#menu input {z-index:4}
-	#menu input:checked + label {color:white}
-	#menu input:checked + label:before {content:"\00d7"}
-	#menu input:checked ~ ul {display:block}
+    padding-bottom: .5em;
+    padding-top: .2em;
 }
 
