@@ -9,6 +9,7 @@
   
 }
 html {
+    padding-top: 1.5em;
     margin: 0 auto;
     font-size: 20px;
     max-width: 80%;
@@ -22,10 +23,7 @@ html {
 }
 #particles-js{
      border: 5px solid #555;
-     max-width: 70%;
-}
-#title {
-    padding-bottom: 100px;
+     max-width: 50%;
 }
 h3
  {
@@ -37,7 +35,6 @@ h3
 
 h2 {
     display: flex;
-    padding-left: .6em;
     font-size: 40px;
     color: rgb(0, 0, 0);
 }
@@ -55,7 +52,6 @@ footer {
     max-width: 1280px;
     justify-content: center;
     width: 100%;
-    
 }
 body span{
     display: flex;
@@ -82,8 +78,7 @@ body span{
 
 }
 header h1{
-    padding-left: .1em;
-    padding-bottom: 1.5em;
+    padding-bottom: .5em;
     color: rgb(0, 0, 0);
     font-family: 'supermercadoregular';
     font-weight: normal;
@@ -95,12 +90,6 @@ header img {
     align-items: center;
     max-width: 200px;
     margin: 0% auto;
-
-}
-h2{
-    font-family: handleeregular ;
-    margin: 0 auto;
-    
 }
 header span{
     display: flex;
@@ -110,13 +99,10 @@ header span{
 
 }
 body header{
-    padding-top: 2em;
+    padding-top: 1em;
     justify-content: center;
 }
-
-
 section > p{
-    font-family: 'supermercadoregular';
     font-style: normal;
     margin: 0em 0;
     padding: 1em 1em 1em 1em;
@@ -126,21 +112,18 @@ section > p{
 
 }
 #Projects {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
     display: flex;
     flex-direction: row;
 }
 main h2{
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding-top: 0em;
+    padding-bottom: .5em;
 }
 
 #Projects article {
-
     background: rgb(114, 114, 114, .0);
-    padding: em;
-
 }
 #Projects > article > img {
     background: rgb(0, 0, 0, .01);
@@ -148,17 +131,13 @@ main h2{
     align-items: center;
     width: 350px;
     border: 1px solid #222;
-    max-width: 75%;
+    max-width: 100%;
 
 }
 #Projects article p {
         align-items: center;
         font-size: 18px;
         max-width: 100%;
-    
-}
-#Projects h3 {
-    padding-bottom: 1em;
 }
 
 footer {
