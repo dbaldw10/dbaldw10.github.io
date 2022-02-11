@@ -159,7 +159,7 @@ footer {
 
 }
 #downloadbutton{
-    opacity: .45;
+    padding-bottom: 4em;
 }
 #ContactMe {
     display: flex;
@@ -241,6 +241,13 @@ footer {
 	font-size: 1.6em;
 	content: "\2261"; 
 	margin-left: 20px;
+}
+#Certs {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    padding-bottom: 3em;
+    padding-top: 3em;
 }
 
 @media screen and (max-width: 800px){
