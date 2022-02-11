@@ -272,7 +272,7 @@ footer {
     border-radius: 1%;
     margin-top: 1em;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
     h1, h3, h2 {
         max-width: 80%;
     }
