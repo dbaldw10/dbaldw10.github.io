@@ -4,21 +4,19 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: rgb(255, 255, 255);
+  
 }
 html {
-    display: flex;
-    flex-direction: row;
     margin: 0 auto;
     font-size: 20px;
     color:rgb(0, 0, 0);
     max-width: 80%;
     justify-content: center;
     margin-top: 3em;
-
 }
 #particles-js{
     max-width: 70%;
+    color: #000, .01;
 }
 
 h3
@@ -98,7 +96,7 @@ header img {
 }
 h2{
     font-family: handleeregular ;
-    margin: 0 auto
+    margin: 0 auto;
     
 }
 header span{
@@ -114,15 +112,6 @@ body header{
 }
 
 
-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 0 auto;
-    padding: 1em 1em 1em 1em;
-    max-width: 80%;
-    color: #000;
-}
 section > p{
     font-family: cinzelregular;
     font-style: normal;
@@ -133,26 +122,20 @@ section > p{
     color: rgb(0, 0, 0);
 
 }
-#products {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto;
-    justify-content: center;
-    grid-column-gap: .5em;
-    max-width: 100%;
-    
-
-
+#Projects {
+    padding-bottom: 3rem;
+    display: flex;
+    flex-direction: row;
 }
 
 #Projects article {
 
-    background: rgb(114, 114, 114, .01);
+    background: rgb(114, 114, 114, .0);
     padding: em;
 
 }
 #Projects > article > img {
-    background: rgb(0, 0, 0);
+    background: rgb(0, 0, 0, .01);
     padding: 0em;
     align-items: center;
     width: 350px;
@@ -217,7 +200,7 @@ footer {
     justify-content: center;
 	margin: 0 auto;
 	padding: 0;
-    background-color: #68b6d4;
+    background-color: #50aace;
 
 }
 #menu li {
