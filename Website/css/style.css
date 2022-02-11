@@ -27,6 +27,7 @@ html {
     justify-content: center;
     padding-left: 2em;
     padding-right: 2em;
+    max-width: 8;
 
 }
 header {
@@ -237,7 +238,7 @@ footer {
   text-align: center;
   padding-top: 2px;
   font-size: 16px;
-  background-color: ##3eaeca;
+  background-color: #3eaeca;
   
 }
 #menu ul, #menu li {
@@ -268,6 +269,12 @@ footer {
 	color: #ffffff;
 	background: #000000;
 }
+body main span {
+    padding: em;
+    max-width: 80%;
+    align-content: center;
+    margin: 0 auto;
+}
 #menu input {
 	display: none;
 	margin: 0;
@@ -282,6 +289,13 @@ footer {
 	text-align: center;
 	position: absolute;
 	left: 35px
+}
+body main #downloadbutton {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    max-width: 100%;
+
 }
 #menu label:before {
 	font-size: 1.6em;
@@ -325,18 +339,9 @@ footer {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        max-width: 100%;
-    }
-    #downloadbutton{
-        max-width: 5%;
-        display: none;
-    }
-    main span {
-        display: none;
+        max-width: 80%;
     }
     
-
-
     
 }
 
