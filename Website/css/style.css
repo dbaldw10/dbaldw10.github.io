@@ -9,17 +9,23 @@
   
 }
 html {
-    padding-top: 1.5em;
+    padding-top: 3.5em;
     margin: 0 auto;
     font-size: 20px;
     max-width: 80%;
     justify-content: center;
-  background: linear-gradient(rgb(255, 255, 255), rgb(151, 186, 206));
+  background: linear-gradient(rgb(255, 255, 255), rgb(208, 226, 245));
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   
+}
+body header {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 2em;
+    justify-content: center;
 }
 #particles-js{
      border: 5px solid #555;
@@ -84,11 +90,10 @@ header h1{
     font-weight: normal;
     font-style: normal;
     font-size: 2.8em;
-    align-items: center;
 }
 header img {
     align-items: center;
-    max-width: 200px;
+    max-width: 20%;
     margin: 0% auto;
 }
 header span{
@@ -116,6 +121,7 @@ section > p{
     padding-bottom: 1rem;
     display: flex;
     flex-direction: row;
+    gap: 1em;
 }
 main h2{
     padding-top: 0em;
